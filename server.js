@@ -18,7 +18,7 @@ const corsOptions = {
     // ['http://localhost:3000', 'http://localhost:3000', 'http://localhost:3000']
 }
 
-app.use(cors(corsOptions));
+app.use(cors(corsOptions))
 
 // Template engine
 app.set('views', path.join(__dirname, '/views'));
